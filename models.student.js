@@ -7,6 +7,6 @@ var UserSchema = new mongoose.Schema({
     age: Number
 });
 
-var Student = mongoose.model('StudentRegistration', UserSchema);
+var Student = mongoose.model('Student', UserSchema);
 
-module.exports = student;   
+module.exports = Student;
